@@ -1,5 +1,6 @@
 from flask import Flask , render_template , url_for , redirect
 from flask_bootstrap import Bootstrap
+from flask_mysqldb import MySQL
 
 app=Flask(__name__)
 Bootstrap(app)
